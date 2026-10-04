@@ -3,10 +3,12 @@ import LanguageToggle, {
   type DisplayLanguage,
 } from "../components/LanguageToggle";
 import QuestionCard from "../components/QuestionCard";
-import { sampleQuestions } from "../data/sampleQuestions";
+import { civicsQuestions2025 } from "../data/civicsQuestions2025";
 
 function shuffledQuestions() {
-  return [...sampleQuestions].sort(() => Math.random() - 0.5);
+  return [...civicsQuestions2025]
+    .sort(() => Math.random() - 0.5)
+    .slice(0,20);
 }
 
 export default function MockTestPage() {
@@ -18,7 +20,7 @@ export default function MockTestPage() {
 
   const finished = correct >= 12 || incorrect >= 9 || current >= 20;
   const currentQuestion = useMemo(
-    () => questions[current % questions.length],
+    () => questions[current],
     [questions, current],
   );
 

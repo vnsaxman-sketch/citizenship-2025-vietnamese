@@ -19,5 +19,6 @@ export interface CitizenshipQuestion {
   studyTipVi: string;
   isSixtyFiveTwenty?: boolean;
   needsCurrentOfficial?: boolean;
+  lastVerified: string;
 }
 
