@@ -49,7 +49,7 @@ function App() {
             USCIS Study for the Test
           </a>
         </p>
-
+	<p> Developed by Long Nguyen </p>
       </footer>
     </div>
   );
