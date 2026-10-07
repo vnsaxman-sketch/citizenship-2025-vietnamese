@@ -6,8 +6,8 @@ export default function HomePage() {
       <p className="eyebrow">Independent bilingual study aid</p>
 
       <h1>
-        U.S. Citizenship 2025 Practice
-        <span>Luyện Thi Quốc Tịch Hoa Kỳ 2025</span>
+        U.S. Citizenship 2026 Practice
+        <span>Luyện Thi Quốc Tịch Hoa Kỳ 2026</span>
       </h1>
 
       <p className="hero-text">

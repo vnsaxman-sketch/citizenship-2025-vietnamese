@@ -9,7 +9,7 @@ function App() {
     <div className="app-shell">
       <header className="site-header">
         <NavLink to="/" className="brand">
-          Citizenship 2025
+          Citizenship 2026
           <span>English + Vietnamese</span>
         </NavLink>
 
